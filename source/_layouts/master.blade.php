@@ -11,5 +11,8 @@
     </head>
     <body>
         <a class="visually-hidden" href="#content">Skip to Content</a>
+        <main id="content">
+            @yield('body')
+        </main>
     </body>
 </html>
