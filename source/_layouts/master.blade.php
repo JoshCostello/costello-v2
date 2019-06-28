@@ -10,6 +10,6 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        @yield('body')
+        <a class="visually-hidden" href="#content">Skip to Content</a>
     </body>
 </html>
