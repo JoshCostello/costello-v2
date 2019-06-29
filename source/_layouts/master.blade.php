@@ -7,6 +7,8 @@
 
         <title>@yield('title') &mdash; Joshua Costello</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Assistant:700|Literata:400,400i,700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
