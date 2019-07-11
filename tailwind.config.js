@@ -33,7 +33,11 @@ module.exports = {
                 'monospace',
             ],
         },
-        extend: {},
+        extend: {
+            colors: {
+                salmon: '#EC847A',
+            },
+        },
     },
     variants: {},
     plugins: [],
