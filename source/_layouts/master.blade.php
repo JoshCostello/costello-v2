@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="antialiased" lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,7 @@
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body>
+    <body class="text-gray-700 text-md sm:text-lg md:text-xl">
         <a class="visually-hidden" href="#content">Skip to Content</a>
         <main id="content">
             @yield('body')
