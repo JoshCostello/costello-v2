@@ -7,6 +7,6 @@ function config($key, $default = null)
 }
 
 return [
-    'production' => config('PRODUCTION', false),
+    'production' => config('PRODUCTION', true),
     'baseUrl' => config('BASE_URL', ''),
 ];
