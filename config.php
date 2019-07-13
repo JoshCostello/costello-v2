@@ -9,4 +9,5 @@ function config($key, $default = null)
 return [
     'production' => config('SITE_ENV', true),
     'baseUrl' => config('SITE_URL', ''),
+    'collections' => [],
 ];
