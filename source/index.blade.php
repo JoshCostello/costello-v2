@@ -11,7 +11,7 @@ Dad. Husband. Developer. Human.
         <p class="max-w-lg">Father. Husband. Craftsman. Adventurer. I am a human who enjoys building things on the internet for other humans.</p>
     </div>
     <div class="relative md:max-w-md lg:flex-1 lg:max-w-lg">
-        <img class="headshot shadow" src="/assets/images/me.jpg" alt="A photograph of Joshua Costello" />
+        <img alt="A photograph of Joshua Costello" class="headshot shadow" decoding="auto" sizes="100vw" srcset="/assets/images/me-640.jpg 640w,/assets/images/me-750.jpg 750w,/assets/images/me-1080.jpg 1080w" src="/assets/images/me-1080.jpg">
         <div aria-hidden="true" class="crosshatch-salmon absolute"></div>
         <div aria-hidden="true" class="gradient-pink-lemonade absolute bottom-0 left-0 right-0 top-0"></div>
     </div>
