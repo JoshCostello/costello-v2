@@ -13,6 +13,7 @@
     </head>
     <body class="text-gray-700 text-md sm:text-lg md:text-xl">
         <a class="visually-hidden" href="#content">Skip to Content</a>
+        @include('_layouts.shared.header')
         <main id="content">
             @yield('body')
         </main>
